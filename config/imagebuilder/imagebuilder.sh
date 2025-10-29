@@ -174,12 +174,12 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        adguardhome bash brcmfmac-firmware-usb chinadns-ng cgi-io coreutils coreutils-base64 coreutils-nohup curl dns2socks dnsmasq-full glib2 ip-full \
+        adguardhome bash brcmfmac-firmware-usb chinadns-ng cgi-io coreutils coreutils-base64 coreutils-nohup curl dns2socks glib2 ip-full \
         ipt2socks kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-crypto-crc32c kmod-crypto-hash kmod-fs-ext4 kmod-gpio-button-hotplug kmod-lib-crc16 \
         kmod-libphy kmod-mii kmod-nf-conntrack kmod-nf-nat kmod-nf-socket kmod-nf-tproxy kmod-nft-core kmod-nft-nat kmod-nft-socket kmod-nft-tproxy \
         kmod-nls-base kmod-r8168 kmod-tun kmod-usb-core kmod-usb-net kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm kmod-usb-net-qmi-wwan \
         kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-wdm \
-        libbpf1 libc libcap libcurl4 libjson-c5 liblua5.1.5 liblucihttp-ucode libmbim libmnl0 libncurses6 libnl-tiny1 libopenssl3 libpthread \
+        libbpf1 libcap libcurl4 libjson-c5 liblua5.1.5 liblucihttp-ucode libmbim libmnl0 libncurses6 libnl-tiny1 libopenssl3 libpthread \
         libqmi libqrtr-glib libreadline8 libuci-lua libuci20250120 libuv1 libwebsockets-full lua microsocks modemmanager perlbase perlbase-essential \
         perlbase-utf8 perlbase-io perlbase-file perlbase-time perlbase-unicode perlbase-getopt perlbase-cwd perlbase-posix perlbase-data perlbase-text \
         perlbase-symbol perlbase-storable perlbase-digest perlbase-math perlbase-list perlbase-scalar perlbase-open perlbase-sys perlbase-version \
@@ -188,7 +188,7 @@ rebuild_firmware() {
         xray-core zoneinfo-asia zoneinfo-core zstd \
         bc blockd bsdtar coreutils-truncate wget-ssl openssl-util tar xz xz-utils xray-plugin \
         btrfs-progs kmod-fs-btrfs resize2fs tune2fs f2fs-tools f2fsck mount-utils \
-        luci-app-sqm luci-base luci-compat luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall \
+        luci-app-sqm luci-base luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall \
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
