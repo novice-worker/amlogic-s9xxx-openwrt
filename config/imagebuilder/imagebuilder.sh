@@ -180,7 +180,7 @@ rebuild_firmware() {
         kmod-nls-base kmod-r8168 kmod-tun kmod-usb-core kmod-usb-net kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm kmod-usb-net-qmi-wwan \
         kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-wdm \
         libbpf1 libcap libcurl4 libjson-c5 liblua5.1.5 liblucihttp-ucode libmbim libmnl0 libncurses6 libnl-tiny1 libopenssl3 libpthread \
-        libqmi libqrtr-glib libreadline8 libuci-lua libuci20250120 libuv1 libwebsockets-full lua microsocks modemmanager perlbase perlbase-essential \
+        libqmi libqrtr-glib libreadline8 libuci-lua libuci20250120 libuv1 libwebsockets-full lua microsocks modemmanager perlbase-essential \
         perlbase-utf8 perlbase-io perlbase-file perlbase-time perlbase-unicode perlbase-getopt perlbase-cwd perlbase-posix perlbase-data perlbase-text \
         perlbase-symbol perlbase-storable perlbase-digest perlbase-math perlbase-list perlbase-scalar perlbase-open perlbase-sys perlbase-version \
         perlbase-config perlbase-errno perlbase-re resolveip rpcd \
