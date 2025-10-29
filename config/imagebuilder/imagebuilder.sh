@@ -174,19 +174,17 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        kmod-brcmfmac kmod-gpio-button-hotplug kmod-r8168 kmod-tun \
-        kmod-usb-serial kmod-usb-net kmod-usb-serial-wwan kmod-usb-serial-option kmod-usb-net-qmi-wwan kmod-usb-net-cdc-mbim luci-proto-modemmanager \
-        libmbim libqmi \
-        coreutils coreutils-base64 coreutils-nohup curl \
-        chinadns-ng dns2socks ip-full \
-        libuci-lua lua luci-lib-jsonc \
-        microsocks resolveip tcping \
-        ipt2socks kmod-nft-socket kmod-nft-tproxy kmod-nft-nat \
-        xray-core unzip \
-        ttyd \
-        luci-base\
-        kmod-usb-core kmod-mii kmod-fs-ext4 \
-        adguardhome\
+        bash brcmfmac-firmware-usb chinadns-ng cgi-io coreutils coreutils-base64 coreutils-nohup curl dns2socks dnsmasq-full glib2 ip-full ipt2socks \
+        kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-crypto-crc32c kmod-crypto-hash kmod-fs-ext4 kmod-gpio-button-hotplug kmod-lib-crc16 kmod-libphy \
+        kmod-mii kmod-nf-conntrack kmod-nf-nat kmod-nf-socket kmod-nf-tproxy kmod-nft-core kmod-nft-nat kmod-nft-socket kmod-nft-tproxy \
+        kmod-nls-base kmod-r8168 kmod-tun kmod-usb-core kmod-usb-net kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm kmod-usb-net-qmi-wwan \
+        kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-wdm \
+        libbpf1 libc libcap libcurl4 libjson-c5 liblua5.1.5 liblucihttp-ucode libmbim libmnl0 libncurses6 libnl-tiny1 libopenssl3 libpthread \
+        libqmi libqrtr-glib libreadline8 libuci-lua libuci20250120 libuv1 libwebsockets-full lua microsocks modemmanager resolveip rpcd \
+        rpcd-mod-file rpcd-mod-luci rpcd-mod-ucode tcping ttyd ucode ucode-mod-fs ucode-mod-html ucode-mod-math ucode-mod-ubus ucode-mod-uci \
+        xray-core zlib \
+        \
+        luci-base luci-compat luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
