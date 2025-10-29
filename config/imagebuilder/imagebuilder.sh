@@ -186,7 +186,8 @@ rebuild_firmware() {
         perlbase-config perlbase-errno perlbase-re resolveip rpcd \
         rpcd-mod-file rpcd-mod-luci rpcd-mod-ucode tcping ttyd ucode ucode-mod-fs ucode-mod-html ucode-mod-math ucode-mod-ubus ucode-mod-uci \
         xray-core zoneinfo-asia zoneinfo-core zstd \
-        bc blockd bsdtar \
+        bc blockd bsdtar coreutils-truncate wget-ssl openssl-util tar xz xz-utils xray-plugin \
+        btrfs-progs kmod-fs-btrfs resize2fs tune2fs f2fs-tools f2fsck mount-utils \
         luci-app-sqm luci-base luci-compat luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall \
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
