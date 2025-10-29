@@ -185,7 +185,7 @@ rebuild_firmware() {
         perlbase-symbol perlbase-storable perlbase-digest perlbase-math perlbase-list perlbase-scalar perlbase-open perlbase-sys perlbase-version \
         perlbase-config perlbase-errno perlbase-re resolveip rpcd \
         rpcd-mod-file rpcd-mod-luci rpcd-mod-ucode tcping ttyd ucode ucode-mod-fs ucode-mod-html ucode-mod-math ucode-mod-ubus ucode-mod-uci \
-        xray-core zlib zoneinfo-asia \
+        xray-core zlib zoneinfo-asia zoneinfo-core \
         \
         luci-app-sqm luci-base luci-compat luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall \
         \
