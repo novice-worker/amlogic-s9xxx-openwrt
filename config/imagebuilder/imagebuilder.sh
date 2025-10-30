@@ -175,22 +175,22 @@ rebuild_firmware() {
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
         adguardhome bash brcmfmac-firmware-usb chinadns-ng cgi-io coreutils coreutils-base64 coreutils-nohup curl dns2socks glib2 ip-full \
-        ipt2socks kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-crypto-crc32c kmod-crypto-hash kmod-fs-ext4 kmod-gpio-button-hotplug kmod-lib-crc16 \
+        ipt2socks kmod-brcmfmac kmod-crypto-crc32c kmod-crypto-hash kmod-fs-ext4 kmod-gpio-button-hotplug \
         kmod-libphy kmod-mii kmod-nf-conntrack kmod-nf-nat kmod-nf-socket kmod-nf-tproxy kmod-nft-core kmod-nft-nat kmod-nft-socket kmod-nft-tproxy \
-        kmod-nls-base kmod-r8168 kmod-tun kmod-usb-core kmod-usb-net kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm kmod-usb-net-qmi-wwan \
-        kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-wdm kmod-usb-dwc2 kmod-usb-dwc3 \
-        libbpf1 libcap libcurl4 libjson-c5 liblua5.1.5 liblucihttp-ucode libmbim libmnl0 libncurses6 libnl-tiny1 libopenssl3 libpthread \
-        libqmi libqrtr-glib libreadline8 libuci-lua libuci20250120 libuv1 libwebsockets-full lua microsocks modemmanager perlbase-essential \
-        perlbase-utf8 perlbase-io perlbase-file perlbase-time perlbase-unicode perlbase-getopt perlbase-cwd perlbase-posix perlbase-data perlbase-text \
-        perlbase-symbol perlbase-storable perlbase-digest perlbase-math perlbase-list perlbase-scalar perlbase-open perlbase-sys perlbase-version \
-        perlbase-config perlbase-errno perlbase-re resolveip rpcd python3-smbus \
-        rpcd-mod-file rpcd-mod-luci rpcd-mod-ucode tcping ttyd ucode ucode-mod-fs ucode-mod-html ucode-mod-math ucode-mod-ubus ucode-mod-uci \
-        xray-core zoneinfo-asia zoneinfo-core zstd \
-        bc blockd bsdtar coreutils-truncate wget-ssl openssl-util tar xz xz-utils xray-plugin \
-        btrfs-progs kmod-fs-btrfs resize2fs tune2fs f2fs-tools f2fsck mount-utils \
-        luci-app-sqm luci-base luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall luci-app-diskman \
+        kmod-r8168 kmod-tun kmod-usb-net kmod-usb-net-cdc-mbim kmod-usb-net-qmi-wwan \
+        kmod-usb-serial kmod-usb-serial-option kmod-usb-dwc2 kmod-usb-dwc3 \
+        libcap liblua5.1.5 liblucihttp-ucode libmbim \
+        libqmi libuci-lua libuv1 libwebsockets-full lua microsocks modemmanager perlbase-essential \
+        perlbase-utf8 perlbase-io perlbase-file perlbase-time perlbase-unicode perlbase-getopt perlbase-data perlbase-text \
+        perlbase-storable perlbase-digest perlbase-math perlbase-open perlbase-sys perlbase-version \
+        resolveip rpcd python3-smbus \
+        rpcd-mod-file rpcd-mod-luci rpcd-mod-ucode tcping ttyd ucode-mod-html ucode-mod-math \
+        xray-core zoneinfo-asia zstd \
+        bc blockd bsdtar coreutils-truncate wget-ssl openssl-util tar xray-plugin \
+        btrfs-progs resize2fs tune2fs f2fs-tools mount-utils \
+        luci-app-sqm luci-lib-jsonc luci-lua-runtime luci-proto-modemmanager luci-app-passwall luci-app-diskman \
         \
-        luci-app-amlogic luci-i18n-amlogic-zh-cn \
+        luci-app-amlogic \
         \
         ${config_list} \
         "
